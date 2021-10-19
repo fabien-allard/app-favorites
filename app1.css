@@ -1,0 +1,325 @@
+*{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+
+
+body{
+    background-color: black;
+}
+
+nav{ 
+    background: radial-gradient(at 50% 50%, white 50px, black 55%, rgb(172, 172, 30) 65%);
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 15px;
+    width: 97%;
+    height: 170px;
+    font-size: 15px;
+    text-decoration: none;
+    }
+
+
+
+nav img{
+    border-radius: 60px;
+    text-align:center;
+    margin:auto;
+    display:flex;
+    width: 115px;
+    height: 115px;
+}
+.onglet{   
+        width: 98%;
+        background: radial-gradient(at 30% 25%, white 10px, black 35%, rgb(172, 172, 30) 65%);
+        margin-top: 5px;
+        border-radius: 15px;
+}
+
+.onglet a{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
+
+
+#Color0:hover{
+    color:yellow;
+    border-radius:15px;
+    box-shadow: 0 0 10px #edf1f1,
+                0 0 10px #66ffff;
+}
+#Color1:hover{
+    color:yellow;
+    border-radius:15px;
+    box-shadow: 0 0 10px #f6fcfc,
+                0 0 10px #66ffff;
+}
+#Color2:hover{
+    color:white;
+    border-radius:15px;
+    box-shadow: 0 0 10px #eef5f5,
+                0 0 10px #66ffff;
+}
+.onglet ul{
+    align-items: center;
+    margin: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+h1{
+    color:#A9A9A9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+h2{
+    margin-top: 85px;
+    text-align: center;
+    text-decoration: solid;
+}
+
+h3{
+    margin-top: 15px;
+    font-size: 1,5rem;
+}
+
+
+header img{
+    width:98%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+
+/* Début de la Section */
+section{
+    margin-top: 5px;
+    border-radius: 25px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: radial-gradient(rgb(216, 230, 26) 50%, black);
+}
+
+
+.image1{
+background-image: url(\2f content\2f dam\2f atvi\2f callofduty\2fmobile\2fhome\2fgamemodes\2fmodes-battle-royale.jpg);
+}
+
+
+
+ button:hover{
+    color:black;
+    border-radius:1px;
+    box-shadow: 0 0 10px #33ffff,
+                0 0 10px #66ffff;
+ }
+
+ section a{
+     text-decoration: none;
+ }
+ section .Main{
+     width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section img {
+    border-radius: 35px;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
+
+
+.Details img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+  .Details h1{
+     margin-top: 25px;
+    color: rgb(218, 81, 28);
+    padding: 15px 15px;
+    flex-direction: column;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .Details p{
+     margin-top: 30px;
+     text-align: center;
+ }
+
+ .Details iframe{
+     justify-content: center;
+ }
+ .Main h2{
+     margin-top: 15px;
+     text-decoration:3px underline;
+     padding: 15px 15px;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+
+
+.Main Button {
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 1px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+ }
+
+
+.Personnages p{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-align: center;
+    font-size:16px;
+}
+
+
+.Personnages h2{
+    text-align: center;
+    margin-left: 105px;
+    padding:15px 20px;
+    margin-top: 155px;
+    color: rgb(209, 15, 15);
+    font-size: 15px;
+    display:inline;
+    text-decoration:2px underline;
+}
+
+#john{
+flex-direction: column; 
+   margin-left: 105px;
+
+}
+#david{
+    margin-left: 105px;
+    flex-direction: column; 
+
+}
+#alex{
+    flex-direction: column; 
+    margin-left: 170px;
+
+}
+#simon{
+    flex-direction: column; 
+    margin-left: 160px;
+
+}
+#thomas{
+    margin-left: 120px;
+    flex-direction: column; 
+
+}
+.Personnages{
+    border-radius: 25px;
+    background: radial-gradient(rgb(216, 230, 26) 50%, black);
+    margin-top: 2px;
+}
+.Personnages h1{
+    font-family: 'IM Fell English SC', serif;
+    color:rgb(155, 31, 31);
+}
+.Personnages p{
+    text-align: center;
+}
+.Personnages img{
+    margin-left:25px;
+    align-items: center;
+    margin-top: 55px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Personnages iframe{
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    align-items: center;
+}
+
+
+.images2 img{
+    justify-content: space-around;
+    margin-left: 80px;
+    width: 200px;
+    height:250px;
+    padding:15px 20px;
+    margin-top: 1px;
+    border-radius: 45px;
+
+}
+
+ footer {
+     margin-top: 5px;
+    border-top: 1px solid blue;
+    padding: flex;
+    font-family:'Kaushan Script', cursive;
+    background: radial-gradient(rgb(216, 230, 26) 50%, black);
+    color:black;
+    align-items: center;
+    flex-direction: column;
+    outline: none;
+    text-align: center;
+    box-shadow: none;
+    list-style: none;
+    border-radius: 30px;
+}
+footer p {
+    margin-top: 13px;
+    list-style: none;
+}
+
+
+
+footer a{
+    color:red;
+    font-size: 18px;
+    text-decoration: none;
+}
+footer h4{
+    margin-top: 13px;
+    text-align: center;
+}
+
